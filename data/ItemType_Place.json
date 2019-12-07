@@ -1,0 +1,257 @@
+﻿{
+  "name": "Place",
+  "description": "",
+  "successors":
+  [
+    {
+      "name": "Spacetime",
+      "description": "The entire, vast reach of a universe in its material, ordinary, and reasonably predictable manifestation. A place of galaxies, stars, planets, and worlds, where the usual laws of time, motion, and causality work in ways typically expected by physical laws.",
+      "successors": [
+        {
+          "name": "Galaxy"
+        },
+        {
+          "name": "Star Cluster"
+        },
+        {
+          "name": "Star System"
+        },
+        {
+          "name": "Star"
+        },
+        {
+          "name": "Planet"
+        }
+      ]
+    },
+    {
+      "name": "Extra-dimensional Spacetime",
+      "description": "A region of space that is part of a universe but is also not necessarily a part of ordinary spacetime. A place that exists alongside ordinary spacetime, and may represent an entirely separate, parallel, or ancilary universe."
+    },
+    {
+      "name": "Alternate Plane of Existence",
+      "description": "A place that is may be as vast as an entire universe, but exists in a way that is shifted entirely away from the boundaries of ordinary reality and known laws of time, motion, and causality."
+    },
+    {
+      "name": "World",
+      "description": "A large physical body (typically a planet but not necessarily so) which often plays host to an array of other, more specific places, and is often host to an ongoing saga of conscious activity. A world may exist within any sort of larger, spacial region -- ordinary spacetime, an alternate place of existence, a liminal realm, etc.",
+      "successors": [
+        {
+          "name": "Water Feature",
+          "successors": [
+            {
+              "name": "Ocean"
+            },
+            {
+              "name": "Sea"
+            },
+            {
+              "name": "Lake"
+            },
+            {
+              "name": "Bay"
+            },
+            {
+              "name": "Inlet"
+            },
+            {
+              "name": "Fjord"
+            },
+            {
+              "name": "River"
+            },
+            {
+              "name": "Stream"
+            },
+            {
+              "name": "Creek"
+            },
+            {
+              "name": "Brook"
+            },
+            {
+              "name": "Delta"
+            },
+            {
+              "name": "Spring"
+            },
+            {
+              "name": "Waterfall"
+            }
+          ]
+        },
+        {
+          "name": "Land Mass",
+          "Sucessors": [
+            {
+              "name": "Continent"
+            },
+            {
+              "name": "Island"
+            }
+          ]
+        },
+        {
+          "name": "Environmental Feature",
+          "description": "",
+          "successors": [
+            {
+              "name": "Mountain Range"
+            },
+            {
+              "name": "Mountain"
+            },
+            {
+              "name": "Valley"
+            },
+            {
+              "name": "Canyon"
+            },
+            {
+              "name": "Cavern"
+            },
+            {
+              "name": "Forest"
+            },
+            {
+              "name": "Woodland"
+            },
+            {
+              "name": "Savannah"
+            },
+            {
+              "name": "Plain"
+            },
+            {
+              "name": "Desert"
+            },
+            {
+              "name": "Prairie"
+            },
+            {
+              "name": "Swampland"
+            },
+            {
+              "name": "Marsh"
+            },
+            {
+              "name": "Wildlands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liminal Realm",
+      "description": "A place of any size or shape, which is part of, yet also separate from ordinary spacetime. It is a place which cannot be said to precisely exist as part of any other known realm -- it is literally a place in-between, lost in both time and space, and usually accessible only under special circumstances, often by leap of imagination"
+    },
+    {
+      "name": "Wilderness",
+      "description": "An area of wilderness is any untamed and unsettled regional expanse -- in space, on a world, or anywhere at all -- which is understood to be distinctly separate and apart from areas which are better known and understood. A wilderness is a place which may be something quite like a liminal realm, but has a physical reality that makes it part of ordinary spacetime."
+    },
+    {
+      "name": "Domain",
+      "description": "Spaces and places which have been arbitrarily defined through the conscious activity of beings, e.g. regions of political or economic hegemony, permanent settlements, jurisdictions of control, areas of ideological or cultural identity, etc.",
+      "successors": [
+        {
+          "name": "Empire"
+        },
+        {
+          "name": "Dominion"
+        },
+        {
+          "name": "Kingdom"
+        },
+        {
+          "name": "Nation"
+        },
+        {
+          "name": "State"
+        },
+        {
+          "name": "Commonwealth"
+        },
+        {
+          "name": "Territory"
+        },
+        {
+          "name": "Colony"
+        },
+        {
+          "name": "Canton"
+        },
+        {
+          "name": "County"
+        },
+        {
+          "name": "Barony"
+        },
+        {
+          "name": "Region"
+        },
+        {
+          "name": "Province"
+        },
+        {
+          "name": "District"
+        },
+        {
+          "name": "Precinct"
+        },
+        {
+          "name": "Metropolis"
+        },
+        {
+          "name": "City"
+        },
+        {
+          "name": "City State"
+        },
+        {
+          "name": "Town"
+        },
+        {
+          "name": "Village"
+        },
+        {
+          "name": "Settlement"
+        },
+        {
+          "name": "Neighborhood"
+        },
+        {
+          "name": "Estate"
+        },
+        {
+          "name": "Fiefdom"
+        }
+      ]
+    },
+    {
+      "name": "Construction",
+      "successors": [
+        {
+          "name": "Megastructure"
+        },
+        {
+          "name": "Installation"
+        },
+        {
+          "name": "Campus"
+        },
+        {
+          "name": "Port"
+        },
+        {
+          "name": "Space Station"
+        },
+        {
+          "name": "Fort"
+        },
+        {
+          "name": "Building"
+        }
+      ]
+    }
+  ]
+}

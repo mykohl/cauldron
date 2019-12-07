@@ -1,0 +1,32 @@
+{
+  "name": "Artifact",
+  "description": "Any type of object which has a physical manifestation and which may be moved from one place to another.",
+  "successors": [
+    {
+      "name": "Conveyance",
+      "Successors": [
+        {
+          "name": "Astral Vehicle"
+        },
+        {
+          "name": "Interdimensional Vehicle"
+        },
+        {
+          "name": "Time Vehicle"
+        },
+        {
+          "name": "Space Vehicle"
+        },
+        {
+          "name": "Water Vehicle"
+        },
+        {
+          "name": "Air Vehicle"
+        },
+        {
+          "name": "Land Vehicle"
+        }
+      ]
+    }
+  ]
+}

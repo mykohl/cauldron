@@ -1,0 +1,32 @@
+{
+  "name": "Convention",
+  "description": "Any set of related practices, ideas, or rules which are adopted as generally-accepted by a group of beings, and which serve to identify that group as distinct and separate from others which do not so adopt the same set of practices, ideas, or rules. Conventions differ from concepts in the sense that concepts tend to refer more specifically to stand-alone, independent ideas, whereas conventions usually help to shape the definition of personal identity.",
+  "successors": [
+    {
+      "name": "Religion"
+    },
+    {
+      "name": "Culture"
+    },
+    {
+      "name": "Society"
+    },
+    {
+      "name": "Language"
+    },
+    {
+      "name": "Discipline"
+    },
+    {
+      "name": "Practice",
+      "successors": [
+        {
+          "name": "Ritual"
+        },
+        {
+          "name": "Ceremony"
+        }
+      ]
+    }
+  ]
+}
