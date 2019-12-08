@@ -1,6 +1,6 @@
 import flask
 import sys
-import config
+import app.main.config
 from app.main.model.model import ItemType
 from .. import db, flask_bcrypt
 
