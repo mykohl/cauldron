@@ -13,3 +13,5 @@ def get_item_type_path(item_type_id):
 
     return path
 
+def get_one_item_type(item_type_id):
+    return db.session.query(ItemType).filter_by(id = item_type_id).first()

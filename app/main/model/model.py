@@ -30,7 +30,7 @@ class ItemAspectDetail(TableMixin, DetailMixin, CreationMixin, db.Model):
     item_aspect_id = db.Column(db.Integer, db.ForeignKey('ItemAspect.id'))
 
 
-class ItemType(TableMixin, ComponentMixin, TypeMixin, CreationMixin, db.Model):
+class ItemType(ComponentMixin, TypeMixin, CreationMixin, db.Model):
     items = db.relationship('ItemTypeInventory')
 
 
@@ -45,7 +45,7 @@ class ItemAssociation(TableMixin, ArticleMixin, CreationMixin, db.Model):
     types = db.relationship('ItemAssociationTypeInventory')
 
 
-class ItemAssociationType(TableMixin, ComponentMixin, TypeMixin, CreationMixin, db.Model):
+class ItemAssociationType(ComponentMixin, TypeMixin, CreationMixin, db.Model):
     item_associations = db.relationship('ItemAssociationTypeInventory')
 
 
@@ -70,7 +70,7 @@ class EventAspectDetail(TableMixin, DetailMixin, db.Model):
     event_aspect_id = db.Column(db.Integer, db.ForeignKey('EventAspect.id'))
 
 
-class EventType(TableMixin, ComponentMixin, TypeMixin, CreationMixin, db.Model):
+class EventType(ComponentMixin, TypeMixin, CreationMixin, db.Model):
     events = db.relationship('EventTypeInventory')
 
 
@@ -85,7 +85,7 @@ class EventAssociation(TableMixin, ArticleMixin, CreationMixin, db.Model):
     types = db.relationship('EventAssociationTypeInventory')
 
 
-class EventAssociationType(TableMixin, ComponentMixin, TypeMixin, CreationMixin, db.Model):
+class EventAssociationType(ComponentMixin, TypeMixin, CreationMixin, db.Model):
     event_associations = db.relationship('EventAssociationTypeInventory')
 
 
@@ -100,7 +100,7 @@ class ItemEvent(TableMixin, ArticleMixin, CreationMixin, db.Model):
     types = db.relationship('ItemEventTypeInventory')
 
 
-class ItemEventType(TableMixin, ComponentMixin, TypeMixin, CreationMixin, db.Model):
+class ItemEventType(ComponentMixin, TypeMixin, CreationMixin, db.Model):
     item_events = db.relationship('ItemEventTypeInventory')
 
 
@@ -109,7 +109,7 @@ class ItemEventTypeInventory(TableMixin, db.Model):
     type_id = db.Column(db.Integer, db.ForeignKey('ItemEventType.id'))
 
 
-class IntervalType(TableMixin, ComponentMixin, TypeMixin, CreationMixin, db.Model):
+class IntervalType(ComponentMixin, TypeMixin, CreationMixin, db.Model):
     intervals = db.relationship('Interval')
 
 

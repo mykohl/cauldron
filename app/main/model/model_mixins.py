@@ -23,7 +23,7 @@ class ArticleMixin(object):
     description = db.Column(db.String)
 
 
-class HierarchyMixin(object):
+class HierarchyMixin(TableMixin, object):
     def __init__(self, data = None):
         if data is not None:
             if 'successors' in data:
@@ -35,7 +35,7 @@ class HierarchyMixin(object):
 
     @declared_attr
     def predecessor(self):
-        return db.relationship(self.__name__, remote_side=[id], backref='sucessors')
+        return db.relationship(self.__name__, remote_side = self.__name__ + '.id', backref = 'sucessors')
 
     @declared_attr
     def successors(self):
