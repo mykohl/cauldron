@@ -13,13 +13,14 @@ class ItemTypePath(fields.Raw):
         return path
 
 
-class ItemTypeDto:
-    api = Namespace('item_type', description = 'item type operations')
+class ItemDto:
+    api = Namespace('item', description = 'item operations')
     
     item_type = api.model('item_type', {
         'id': fields.Integer,
         'name': fields.String,
-        'path': ItemTypePath(attribute = 'predecessor_id'),
-        'description': fields.String
+        'description': fields.String,
+        'predecessor_id': fields.Integer,
+        'path': ItemTypePath(attribute = 'predecessor_id')
     })
     

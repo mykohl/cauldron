@@ -6,3 +6,6 @@ from .. import db, flask_bcrypt
 
 def get_one_item_type(item_type_id):
     return db.session.query(ItemType).filter_by(id = item_type_id).first()
+
+def insert_one_item_type():
+    pass
